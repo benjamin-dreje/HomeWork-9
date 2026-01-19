@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <title>מחשבון המרת מטבעות</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>💱 מחשבון המרת מטבעות</h1>
+
+      <input type="number" id="amount" placeholder="הכנס סכום" />
+
+      <select id="currency">
+        <option value="usd">USD → ILS</option>
+        <option value="eur">EUR → ILS</option>
+      </select>
+
+      <button onclick="convert()">המר מטבעות</button>
+
+      <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
