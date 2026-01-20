@@ -11,3 +11,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+h1 {
+  font-weight: 800;
+}
