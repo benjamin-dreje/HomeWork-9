@@ -23,10 +23,10 @@ function convert() {
 
   if (currencyValue === "usd") {
     total = amount * usdRate;
-    result.textContent = `${amount} דולר שווים ל-${total.toFixed(2)} ש"ח`;
+    result.textContent = `ש"ח ${total.toFixed(2)}  `;
   } else if (currencyValue === "eur") {
     total = amount * eurRate;
-    result.textContent = `${amount} אירו שווים ל-${total.toFixed(2)} ש"ח`;
+    result.textContent = `ש"ח ${total.toFixed(2)}  `;
   }
   result.style.color = "black";
 }
