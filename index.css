@@ -25,7 +25,7 @@ h1 {
   align-items: center;
   border-radius: 20px;
   background: linear-gradient(122deg, #44b4da 0%, #eee95d 100%);
-  background-size: 200% 200%;
+  background-size: 150% 200%;
   animation: gradientAnimation 3s normal infinite;
 }
 
