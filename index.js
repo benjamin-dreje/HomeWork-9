@@ -7,7 +7,7 @@ function convert() {
   let currencyValue = currency.value;
 
   if (!inputValue.trim() || !currencyValue.trim()) {
-    result.textContent = "לא שמת נתונים";
+    result.textContent = "לא שמת סכום";
     result.classList.add("invalid");
     input.classList.add("red");
     return;
