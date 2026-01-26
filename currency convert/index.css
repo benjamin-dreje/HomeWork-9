@@ -85,5 +85,5 @@ input:focus::placeholder {
   font-weight: 600;
 }
 .red {
-  border: 2px solid red;
+  border: 2.5px solid red;
 }
